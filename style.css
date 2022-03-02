@@ -7,7 +7,6 @@
 body {
     font-family: 'Poppins', sans-serif;
     background: #f8f398; 
-    height: 100vh;
     display: flex;
     flex-direction: column;
 }
@@ -36,11 +35,24 @@ a {
     align-items: center;
     height: 600px;
     flex: 1;
+    gap: 20px;
 }
 #grid {
-    height: 550px;
-    width: 550px;
-    border: 1px solid black;
+    height: 550.1px;
+    width: 550.1px;
+    display: flex;
+    flex-wrap: wrap;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.item {
+    height: 34.300px;
+    width: 34.300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
 }
 .footer {
     display: flex;
@@ -49,4 +61,10 @@ a {
     gap: 13px;
     background: gray;
     flex: 1;
+}
+.changeColor {
+    background: #fff;
+}
+button {
+    padding: 2px;
 }

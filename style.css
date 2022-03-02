@@ -9,6 +9,7 @@ body {
     background: #f8f398; 
     display: flex;
     flex-direction: column;
+    height: 115vh;
 }
 a {
     color: black;
@@ -33,26 +34,24 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 600px;
+    height: 700px;
     flex: 1;
     gap: 20px;
 }
 #grid {
-    height: 550.1px;
-    width: 550.1px;
+    box-sizing: content-box;
+    align-content: space-evenly;
+    height: 640px;
+    width: 640px;
     display: flex;
     flex-wrap: wrap;
-    border-right: 1px solid black;
-    border-bottom: 1px solid black;
+    border: 1px solid black;
 }
 .item {
-    height: 34.300px;
-    width: 34.300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-top: 1px solid black;
-    border-left: 1px solid black;
+    box-sizing: border-box;
+    height: 40px;
+    width: 40px;
+    border: 1px solid black;
 }
 .footer {
     display: flex;
